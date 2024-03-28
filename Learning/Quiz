@@ -1,0 +1,68 @@
+print("Hello, Welcome to my quiz!")
+answer = input("Are you ready for the questions? (Y/N)")
+score = float(0)
+#############################################################################
+if answer == "Y" or "y":
+    print("Let's start with an easy one.")
+    print("Question 1: What does world wide web stand for?")
+    print("1) Wacky Willie Wonka")
+    print("2) World Wide Web")
+    print("3) Wishy Washy Washington")
+    print("4) Wonderful World of Wonder")
+    answer = input()
+    if answer == "2":
+        print("Correct!")
+        score+=1
+    else:
+        print("Sorry that is wrong.")
+#############################################################################
+    print("Question 2: The unicorn is the national animal of which country?")
+    print("1) Ireland")
+    print("2) Switzerland")
+    print("3) Scotland")
+    print("4) New Zealand")
+    answer = input()
+    if answer == "3":
+        print("Correct!")
+        score+=1
+    else:
+        print("Sorry that is wrong.")
+#############################################################################
+    print("Question 3: What sport is dubbed the \"King of Sports\"?")
+    print("1) Basketball")
+    print("2) Football")
+    print("3) Baseball")
+    print("4) Soccer")
+    answer = input()
+    if answer == "4":
+        print("Correct!")
+        score+=1
+    else:
+        print("Sorry that is wrong.")
+#############################################################################
+    print("Question 4: How long do elephant pregnancies last?")
+    print("1) 20")
+    print("2) 21")
+    print("3) 22")
+    print("4) 23")
+    answer = input()
+    if answer == "3":
+        print("Correct!")
+        score+=1
+    else:
+        print("Sorry that is wrong.")
+#############################################################################
+    print("Ah now who knows this?")
+    print("Question 5: When Walt Disney was a child, which character did he play in his school function")
+    print("1) One of the seven dwarfs")
+    print("2) Hercules")
+    print("3) John Smith")
+    print("4) Peter Pan")
+    answer = input()
+    if answer == "4":
+        print("Correct! Apparently you do.")
+        score+=1
+    else:
+        print("Sorry that is wrong.")
+    score = (score/5)*100
+    print("Your finally grade is " + str(score) + "%")
